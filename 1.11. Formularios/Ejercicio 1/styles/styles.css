@@ -1,0 +1,10 @@
+form {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+#Name, #Surname {
+    width: 40%;
+    margin: 4px;
+}

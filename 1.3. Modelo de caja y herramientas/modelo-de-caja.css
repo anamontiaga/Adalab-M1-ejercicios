@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+  }
+  .box {
+    margin: 10px;
+    background: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    border:5px solid red;
+    padding: 10px;
+  }
+  .content {
+    border: 1px solid blue;
+    height: 100%;
+    background: blue;
+    color: white;
+  }
+  .content-box {
+    box-sizing: content-box;
+  }
+  .border-box {
+    box-sizing: border-box;
+  }

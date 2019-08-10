@@ -1,0 +1,15 @@
+body {
+    font-family: 'Mali', cursive;
+  }
+  
+.image {
+    width: 220px;
+    height: 200px;
+}   
+
+div {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 50px;
+}
+

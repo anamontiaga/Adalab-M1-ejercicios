@@ -1,0 +1,46 @@
+
+.header {
+    background-color: rgb(80, 78, 78);
+    width: 100vw;
+}
+
+.header-content {
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    height: 5vh;
+    align-items: center;
+}
+
+a {
+    padding: 0, 10px;
+}
+
+.first {
+    height: 7vh;
+    align-items: center;
+}
+.main-content {
+    max-width: 600px;
+}
+
+.footer {
+    border-top: 2px solid gray;
+    height: 5vh;
+    
+}
+
+.footer-content {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.title, .menu a {
+    color: white;
+    font-weight: bold;
+}

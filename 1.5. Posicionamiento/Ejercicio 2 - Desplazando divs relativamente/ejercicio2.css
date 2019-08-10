@@ -1,0 +1,39 @@
+.padre {
+    background-color: brown;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+}
+
+.div1, .div2, .div3 {
+    width: 300px;
+    height: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+}
+
+.div1 {
+    background-color: aquamarine;
+    left: 100px;
+    top: 50px;
+}
+/*
+OTRA OPCIÓN >> 
+transform: translate(100px, 50px);
+}
+*/
+    
+
+.div2 {
+    background-color: rosybrown;
+    transform: translate(-150px, -320px);
+
+}
+
+.div3 {
+    background-color: rebeccapurple;
+    left: 180px;
+    bottom: 240px;
+}
+

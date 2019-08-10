@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: rgb(177, 174, 174);
+    flex: 1 0 10vh;
+}
+
+.main {
+    background: rgb(73, 68, 68);
+    flex: 1 0;
+    min-height: 80vh;
+}
+
+.footer {
+    background: orange;
+    flex: 1 0 10vh;
+}

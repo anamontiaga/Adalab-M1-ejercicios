@@ -1,0 +1,32 @@
+    body {
+        margin: 0px;
+    }
+    
+    h1 {
+        text-align: center;
+        line-height: 120px;
+        font-size: 18px;
+        color: aquamarine;
+    }
+    
+    .box-content {
+        height: 100vh;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .box {
+        display: inline-block;
+        background-color: white;
+        position: relative;
+        height: 150px;
+        width: 350px;
+        border-radius: 5px;
+        top: 101vh;
+        box-shadow: 0 0 3px 3px rgb(168, 165, 165);
+        transition: top ease 2s;
+    }
+
+    .box-content:hover .box {
+        top: 50vh;
+    }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es"> <!--6-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesSolutions.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Semantics and Accessibility</title>
+</head>
+<body>
+    <a href="#main-content">Ir a contenido</a> <!--7-->
+    <header>
+        <ul> 
+            <li tabindex="0">Inicio</li> <!--1-->
+            <li tabindex="0">Alumnado</li> <!--1-->
+            <li tabindex="0">Profesorado</li> <!--1-->
+            <li tabindex="0">Contacto</li>
+        </ul>
+    </header>
+    <section>
+        <h1 id="main-content">Curso de ebanistería</h1>
+        <div class="place_container">
+            <h2>En Alaska</h2>
+            <img src="../images/alaska.jpg" alt="Curso en Alaska"> <!--3--> <!--4-->
+            <p>Aprende a cortar, serrar, construir casas autosostenidas,
+                bioconstrucción...
+            </p>
+            <button class="button" onclick="enroll()">
+                    Apuntarse
+            </button> <!--2-->
+        </div>
+        <div class="place_container">
+            <h2>En Perú</h2>
+            <img src="../images/peru.jpg" alt="Curso en Perú"> <!--3-->
+            <p>Aprende a cortar, serrar, construir casas autosostenidas,
+                    bioconstrucción...
+            </p>
+            <button class="button" onclick="enroll()">
+                    Apuntarse
+            </button> <!--2-->
+        </div>
+        <div class="place_container">
+            <h2>En Polonia</h2>
+            <img src="../images/polonia.jpg" alt="Curso en Polonia"> <!--3-->
+            <p>Aprende a cortar, serrar, construir casas autosostenidas,
+                    bioconstrucción...
+            </p>
+            <button class="button" onclick="enroll()">
+                    Apuntarse
+            </button> <!--2-->
+        </div>
+    </section>
+
+    <footer>
+        <p><a href="">Para más información contactad aquí con el decanato</a></p>
+    </footer>
+<script src="../main.js"></script>
+</body>
+</html>

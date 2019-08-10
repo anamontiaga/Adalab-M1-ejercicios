@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.article {
+    border: 2px solid palevioletred;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.article1 {
+    border: 2px solid palevioletred;
+    width: 100%;
+    padding: 20px;
+}
+
+.content {
+    text-align: justify;
+}
+
+
